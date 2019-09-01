@@ -1,0 +1,90 @@
+body{
+	background-color:#fff; 
+    font-family:monospace, sans-serif;
+    -webkit-touch-callout : none;
+    -webkit-user-select : none; 
+    -khtml-user-select : none; 
+    -moz-user-select : none;
+    -ms-user-select : none; 
+     user-select : none;                                 support
+}
+
+table{
+	background-color:#eee ;
+	border:1px solid #aaa;
+	border-radius:8px;
+	margin:0 auto;
+	position:relative;
+	top:30px;
+	box-shadow:0px 3px 3px grey;
+}
+
+[type="button"]{
+	width:50px;
+	height:30px;
+	background-color:#fff ; 
+	border-radius:4px;
+	font-size:17px;
+	font-weight:light;
+	border:0;
+	text-align:center;
+	cursor:pointer;
+	color:#777;
+	margin:3px;
+	padding:0px;
+}
+
+[type="button"]:hover{
+	
+	background-color:#aaa;
+	color:#fff;
+}
+#display{
+	background-color:#fff;
+	text-align:right;
+	width:230px;
+	height:50px;
+	font-size:25px;
+	border:0px;
+	color:#777;
+	margin:3px;
+}
+
+.operator1{
+	color:#444;
+	background-color:rgba(500,200,100, 0.6);
+}
+.operator2{
+	color:#444;
+	background-color:rgba(100,90, 150, 0.9);;
+}
+
+.operator3{
+	color:#444;
+	background-color:rgba(900,40,400, 0.3);
+}
+
+.operator4{
+	color:#444;
+	background-color:skyblue;
+}
+.operator5{
+	color:#444;
+	background-color:rgba(100,200,100, 0.3);
+}
+
+th{
+	color:#444;
+	border-bottom:1px solid #fff;
+	font-family:monospace;
+}
+
+[name="cancel"]{
+	color:#FF0509 ;
+}
+
+[name="cancel"]:hover{
+	color:#fff ;
+	background-color:#FF0509 ;
+}
+    
